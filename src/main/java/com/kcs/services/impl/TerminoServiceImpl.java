@@ -41,4 +41,9 @@ public class TerminoServiceImpl implements TerminoService {
 		
 		
 	}
+
+	@Override
+	public List<Termino> findByTerme(String terme) {	    
+		return repository.findByTerme(terme);
+	}
 }

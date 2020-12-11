@@ -7,6 +7,7 @@ import com.kcs.models.Termino;
 public interface TerminoService {
 
     Optional<Termino> findOne(Integer id);
+    List<Termino> findByTerme(String terme);
 
     List<Termino> findAll();
 

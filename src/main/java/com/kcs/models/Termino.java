@@ -22,6 +22,7 @@ public class Termino {
     
 	public Termino(String domaine, String sdomaine, String fr, String gramcatfr, String deffr, String frsyn1,
 			String frsyn2, String frsyn3) {
+		super();
 		this.domaine = domaine;
 		this.sdomaine = sdomaine;
 		this.fr = fr;
@@ -30,6 +31,10 @@ public class Termino {
 		this.frsyn1 = frsyn1;
 		this.frsyn2 = frsyn2;
 		this.frsyn3 = frsyn3;
+	}
+
+	public Termino() {
+		super();
 	}
 
 	public String getDomaine() {
